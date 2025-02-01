@@ -1,0 +1,60 @@
+EXPLANATION OF EACH PARAMETER PRESENT IN THE HEART DISEASE DATASET:
+===============================================================================================================================
+
+Age: The age of the patient in years.
+
+Sex: The gender of the patient. It is a categorical feature and can have two values: 'M' (Male) or 'F' (Female).
+-----------------------------------------------------------------------------------------------------------------------------
+ChestPainType: The type of chest pain experienced by the patient. It is a categorical feature and can have four values:
+
+'TA': Typical angina (chest pain related to reduced blood flow to the heart muscle)
+'ATA': Atypical angina (chest pain not typical of angina)
+'NAP': Non-anginal pain (non-cardiac chest pain)
+'ASY': Asymptomatic (no chest pain)
+------------------------------------------------------------------------------------------------------------------------------
+RestingBP: The resting blood pressure of the patient in mm Hg (millimeters of mercury).
+
+Cholesterol: The serum cholesterol level of the patient in mg/dL (milligrams per deciliter).
+
+------------------------------------------------------------------------------------------------------------------------------
+
+FastingBS: Fasting blood sugar level of the patient. It is a categorical feature and can have two values:
+
+'T': > 120 mg/dL (high fasting blood sugar)
+'F': <= 120 mg/dL (normal fasting blood sugar)
+------------------------------------------------------------------------------------------------------------------------------
+RestingECG: The resting electrocardiographic results of the patient. It is a categorical feature and can have three values:
+
+'Normal': Normal electrocardiographic results
+'ST-T': Abnormality in the ST-T wave
+'LVH': Left ventricular hypertrophy (enlargement of the heart)
+------------------------------------------------------------------------------------------------------------------------------
+MaxHR: The maximum heart rate achieved by the patient during exercise.
+
+ExerciseAngina: Exercise-induced angina (chest pain). It is a categorical feature and can have two values:
+
+'Y': Yes (exercise-induced angina observed)
+'N': No (no exercise-induced angina)
+---------------------------------------------------------------------------------------------------------------------------------
+Oldpeak: ST depression induced by exercise relative to rest. It is measured in units.
+
+ST_Slope: The slope of the peak exercise ST segment. It is a categorical feature and can have three values:
+
+'Up': Upsloping (positive slope)
+'Flat': Flat (horizontal) slope
+'Down': Downsloping (negative slope)
+--------------------------------------------------------------------------------------------------------------------------------------
+HeartDisease: The target variable indicating the presence or absence of heart disease. It is a binary categorical feature and can have two values:
+
+0: Absence of heart disease
+1: Presence of heart disease
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+These parameters represent various attributes and measurements related to a patient's health condition and are used to predict the likelihood of heart disease. The goal of the predictive model is to accurately classify patients as having heart disease or not based on these features.
+
+==========================================================================================================================================
+
+
+
+
